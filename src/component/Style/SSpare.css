@@ -1,0 +1,68 @@
+.exemple {
+  table-layout: auto;
+  width: 100%;
+
+  text-align: left;
+  border: 1px rgb(255, 255, 255) solid;
+}
+
+tbody {
+  border: 1px rgb(255, 255, 255) solid;
+}
+
+.SpareSetList img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+tr {
+  border: 1px rgb(255, 255, 255) solid;
+}
+
+td {
+  box-shadow: 0px 1px 1px grey;
+  border: 1px rgb(255, 255, 255) solid;
+background-color: rgb(0, 2, 127);
+}
+
+input {
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  border: none;
+  margin: 0;
+  padding-top: 0px;
+  background-color: rgb(245, 245, 245);
+}
+.Pwd input {
+  background-color: black;
+}
+
+.Pwd:hover input {
+  background-color: red;
+  color: white;
+}
+
+.Pwd:hover input::placeholder {
+  color: white;
+}
+
+[data-status="Actif"]::placeholder {
+  color: rgb(0, 0, 0);
+}
+
+[data-status="Actif"].Actifa {
+  background-color: greenyellow;
+}
+
+[data-status="Gone"].Actifa {
+  background-color: rgb(161, 161, 161);
+}
+
+[data-status="Holiday"] {
+  background-color: blue;
+}
+
+.Imagee {
+  box-shadow: 0px 0px 8px rgb(109, 109, 109);
+}

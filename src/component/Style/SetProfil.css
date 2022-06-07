@@ -1,0 +1,131 @@
+.SetP {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.Liste {
+    display: flex;
+    flex-direction: column;
+   
+  width: 20%;
+  
+}
+.Plus img{
+    transition: 0.5s;
+    box-shadow: var(--BoxShadow);
+    transform: scale(0.7);
+    
+
+}
+
+
+.Plus img:hover{
+    transform: rotate(45deg) scale(0.7);
+    transition: 0.5s;
+    
+}
+
+.Liste li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.Liste img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+}
+
+.Imgpro {
+  margin-bottom: 60px;
+}
+.Imgpro img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+.Input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  gap: 10px;
+  font-size: var(--fontsizesecondary);
+}
+
+::placeholder {
+  font-weight: 900;
+  color: black;
+  padding: 5px;
+  font-size: var(--fontsizesecondary);
+}
+
+input {
+  font-size: var(--fontsizesecondary);
+  padding: 5px;
+  width: 100%;
+}
+
+.FlexR {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+.ButPic {
+  background-color: var(--ColorSecondary);
+  color: white;
+  padding: 10px;
+  font-size: var(--fontsizesecondary);
+  border: none;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.Ficher {
+  background-color: rgb(241, 241, 241);
+  padding: 10px;
+  height: auto;
+  border: 1px solid black;
+  position: fixed;
+  margin: 5%;
+  box-shadow: var(--BoxShadow);
+}
+
+.ButSup {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  color: white;
+  border: none;
+  margin-inline: 50%;
+  font-size: var(--fontsizesecondary);
+  padding: 5px;
+}
+
+.AllProfils .MapName{
+    font-size: var(--fontsizesecondary);
+
+}
+
+.AllProfils .MapSurName{
+    font-size: var(--fontsizesecondary);
+
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.Pas input{
+  background-color: rgb(0, 0, 0);
+}
+
+.Pas input:hover{
+  background-color: rgb(255, 255, 255);
+}

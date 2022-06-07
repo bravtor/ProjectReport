@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Bowlby+One+SC");
+
+.OneTd {
+  display: block;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: var(--BoxShadow);
+  padding: 20px;
+  background-color: white;
+}
+
+.TitleTodo {
+  text-align: center;
+  font-family: "Bowlby One SC", cursive;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  background: pink;
+}
+
+.Title {
+  color: blue;
+  font-weight: 700;
+  height: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.Color p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  font-weight: 700;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.RowTd {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 10px;
+}
+
+.TdFlex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.ListColor {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.Delete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: red;
+  color: white;
+}
+.Delete p {
+  font-size: 15px;
+}
+
+input::placeholder, textarea::placeholder{
+    color: rgb(59, 59, 59);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Search{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: baseline;
+  margin-bottom: 20px;
+}
+
+.Modale{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+ 
+}
+
+.Modale .ListColor{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.Modale p{
+ padding: 0;
+ margin-bottom: 5px;
+  
+}
+
+.Modale input{
+  margin: 0 auto;
+    text-align: left;
+}

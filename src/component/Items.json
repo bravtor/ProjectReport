@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "Tag": "LV55BA",
+        "type": "valve",
+        "model": "Manson",
+        "N_Serial": "45f441",
+        "statut":"Storage",
+        "quantity": ""
+
+    },
+    {
+        "id": 2,
+        "Tag": "LV55B",
+        "type": "Indicator",
+        "model": "Pierre",
+        "N_Serial": "45f481",
+        "statut":"On_going",
+        "quantity": "" 
+
+    },
+    {
+        "id": 3,
+        "Tag": "Spare",
+        "type": "valve",
+        "model": "Manson",
+        "N_Serial": "",
+        "statut":"Pending",
+        "quantity": 20 
+
+    },
+    {
+        "id": 4,
+        "Tag": "CS 5568F",
+        "type": "valve",
+        "model": "Manson",
+        "N_Serial": "45f441",
+        "statut":"Maintenance",
+        "quantity": "" 
+
+    },
+    {
+        "id": 5,
+        "Tag": "Spare",
+        "type": "valve",
+        "model": "Manson",
+        "N_Serial": "",
+        "statut":"On_going",
+        "quantity": "20"
+
+    },
+    {
+        "id": 6,
+        "Tag": "Tc225A",
+        "type": "valve",
+        "model": "Manson",
+        "N_Serial": "45f441",
+        "statut":"Maintenance",
+        "quantity": 20 
+
+    }
+]

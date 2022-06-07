@@ -1,0 +1,125 @@
+.IdReport .Repport {
+
+  width: 150px;
+  box-shadow: var(--BoxShadow);
+  padding: 10px;
+
+    font-size: var(--fontsizesecondary);
+
+
+}
+
+.IdReport ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.Repport ul{
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 10px;
+}
+
+.IdReport .Repport .statut[data-statut="Done"] {
+    background-color: rgb(3, 104, 0);
+    color:white
+  
+  }
+
+  .IdReport .Repport .statut[data-statut="On going"] {
+    background-color: rgb(201, 151, 0);
+    color:white
+  
+  }
+
+.Modale{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-radius: 25px;
+
+}
+
+.Modale img{
+  width: 45px;
+  height: 45px;
+}
+
+.Modale a{
+  background-color: rgb(0, 123, 255);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.Modale input{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+
+}
+
+.Modale button{
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 17px;
+  padding: 10px;
+}
+
+.ModaleFull button{
+  background-color: none;
+  border: none;
+}
+
+.ModaleFull img{
+  background-color: none;
+  border: none;
+}
+
+.Plus img{
+  border-radius: 90%;
+  width: 50px;
+}
+
+button{
+  background-color: inherit;
+  border: none;
+ 
+}
+
+.IdReport{
+  text-align: center;
+  margin-top: 20px;
+  
+}
+
+
+
+.Repport {
+  background-color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.Repport:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.Repport ul{
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+}
+
+.Form{
+  width: 300px;
+}
